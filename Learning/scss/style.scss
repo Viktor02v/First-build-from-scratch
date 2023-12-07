@@ -1,0 +1,625 @@
+@import "nullstyle";
+
+.wrapper1 {
+	background: url(/Learning/img/drew-beamer-kUHfMW8awpE-unsplash.jpg) center/ 1440px 1180px fixed  no-repeat;
+	max-width: 1440px;
+	max-height: 1180px;
+}
+.content {
+	flex: 1 1 auto;
+}
+.header {
+	padding: 18px 0;
+	// border: 1px solid #000;
+	height: 62px;
+
+		&__row {
+			display: flex;
+			justify-content: space-between;
+		}
+
+		&__column {
+			text-transform: uppercase;
+			
+			
+		}
+		&__body{
+			padding: 5px 0 0 0 ;
+			// border: 1px solid #000;
+			width: 240px;
+			height: 20px;
+		}
+
+			&__item {
+				display: flex;
+			justify-content: space-between;
+
+			}
+	
+	      .item {
+	      }
+	
+
+
+	
+			&__row {
+			}
+	
+	
+		
+	
+		&__home {
+			font-size: 14px;
+		}
+
+		&__landie {
+			margin: 0 339px 0 271px ;
+			font-size: 26px;
+			font-weight: 900;
+			color:rgba(55, 68, 126, 1);
+			
+		}
+
+		&__button-label {
+			
+			
+		}
+		&__button-label button{
+			border-radius: 2px;
+			padding: 4px 80px;
+			font-size: 12px;
+			color: var(--colour-secondary-white-100-general, #FFF);
+			background-color: rgba(17, 27, 71, 1);
+		}
+}
+.inroducing {
+	padding: 230px 0;
+}
+
+.introducing {
+
+		&__row {
+			display: flex;
+		}
+
+		&__body {
+			display: flex;
+			width: 539px;
+			margin: 0 50px 0 0px;
+		}
+
+		&__image {
+			border: 5px solid #f8f7f7;
+			box-shadow: 0 0 30px black;
+		
+		}
+}
+.intoducing {
+
+		&__item {
+		display: flex;
+		flex-direction: column;
+		}
+
+		&__title {
+			font-size: 50px;
+			font-weight: 500;
+			letter-spacing: 1px;
+			padding: 0 0 20px 0;
+		}
+
+		&__text {
+			font-size: 18px;
+			font-weight: 400;
+			line-height: 30px;
+			color: var(--colour-main-blue-500, #505F98);
+			flex: 1 1 auto;
+		}
+
+		&__button {
+		
+		}
+		&__button a{
+			border: 2px solid #000;
+			color: var(--colour-secondary-white-100-general, #FFF);
+			
+			font-size: 16px;
+			font-weight: 500;
+      
+		}
+		&__button a:first-child{
+			padding: 5px 26px;
+			background-color: rgba(17, 27, 71, 1);
+		}
+		&__button a:nth-child(2){
+			padding: 5px 26px;
+			color: var(--colour-main-blue-900, #091133);
+			
+			background: url(/Learning/img/Image\ for\ item1.png)  fixed no-repeat;
+			margin:  0 0 0 30px;
+		}
+
+}
+
+.about {
+background: url(/Learning/img/drew-beamer-kUHfMW8awpE-unsplash.jpg) center/ 1440px 1180px fixed  no-repeat;
+	&__title {
+		padding: 16px 0;
+		color: rgrgba(9, 17, 51, 1);
+		font-size: 36px;
+font-style: normal;
+font-weight: 500;
+line-height: 48px;
+
+	}
+
+	&__text {
+		max-width: 570px;
+		color: var(--colour-main-blue-400, #6F7CB2);
+font-feature-settings: 'clig' off, 'liga' off;
+
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+margin: 0 0 80px 0 ;
+	}
+	&__text p{
+		margin: 16px 0 0 0 ;
+	}
+
+	&__body {
+		max-width:540px;
+	
+		
+	}
+
+	&__row {
+		display: flex;
+		margin: 0 0 0 -60px;
+
+	}
+
+	&__column {
+		margin: 0 0 0 60px;
+		
+	}
+
+	&__item {
+		display: flex;
+		flex-direction: column;
+		
+	}
+
+	&__icon {
+		margin: 0 0 14px 0 ;
+	}
+
+	&__subtitle {
+		color: rgba(9, 17, 51, 1);
+		color: var(--colour-main-blue-900, #091133);
+font-feature-settings: 'clig' off, 'liga' off;
+/* Medium 16 */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px; /* 162.5% */
+margin: 0  0 6px 0;
+	}
+
+	&__subtext {
+
+
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px; 
+color: var(--colour-main-grey-600, #5D6970);
+
+	}
+	&__roww {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__img{
+		border: 5px solid #f9f7f7;
+		box-shadow: 0 0 15px black;
+	}
+	&__img img{
+
+
+	}
+}
+
+.main-1 {
+	padding: 200px 0;
+background:url(/Learning/img/drew-beamer-kUHfMW8awpE-unsplash.jpg) center/ 1440px 1180px fixed  no-repeat ;
+	&__row {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__image {
+		border: 5px solid #f9f7f7;
+		box-shadow: 0 0 15px black;
+		
+	}
+
+	&__body {
+		align-self: center;
+		max-width: 445px;
+		
+	}
+
+	&__title {
+		margin: 0 0 16px 0;
+		color: var(--colour-main-blue-900, #091133);
+font-feature-settings: 'clig' off, 'liga' off;
+/* Medium 36 */
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 500;
+line-height: 48px; /* 133.333% */
+	}
+
+	&__text {
+		color: var(--colour-main-blue-400, #6F7CB2);
+font-feature-settings: 'clig' off, 'liga' off;
+/* Regular 16 */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+	}
+	&__text p{
+		margin: 20px 0 0 0;
+	}
+}
+
+
+.main-2 {
+	padding: 0 0 200px 0;
+background: url(/Learning/img/drew-beamer-kUHfMW8awpE-unsplash.jpg) center/ 1440px 1180px fixed  no-repeat;
+	&__row {
+		display: flex;
+		justify-content: space-between;
+
+	}
+
+	&__image {
+		border: 5px solid #f9f7f7;
+		box-shadow: 0 0 15px black;
+	}
+
+	&__body {
+		align-self: center;
+		max-width: 445px;
+	}
+
+	&__title {
+		margin: 0 0 16px 0;
+		color: var(--colour-main-blue-900, #091133);
+font-feature-settings: 'clig' off, 'liga' off;
+/* Medium 36 */
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 500;
+line-height: 48px; /* 133.333% */
+	}
+
+	&__text {
+		color: var(--colour-main-blue-400, #6F7CB2);
+font-feature-settings: 'clig' off, 'liga' off;
+/* Regular 16 */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+
+	}
+	&__text p{
+		margin: 20px 0 0 0;
+	}
+}
+
+
+.main-3 {
+	padding: 0 0 200px 0;
+	background: url(/Learning/img/drew-beamer-kUHfMW8awpE-unsplash.jpg) center/ 1440px 1180px fixed  no-repeat;
+	&__row {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__image {
+		border: 5px solid #f9f7f7;
+		box-shadow: 0 0 15px black;
+	}
+
+	&__body {
+		align-self: center;
+		max-width: 445px;
+	}
+
+	&__title {
+		margin: 0 0 16px 0;
+		color: var(--colour-main-blue-900, #091133);
+font-feature-settings: 'clig' off, 'liga' off;
+/* Medium 36 */
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 500;
+line-height: 48px; /* 133.333% */
+	}
+
+	&__text {
+		margin: 0 0 44px 0;
+		color: var(--colour-main-blue-400, #6F7CB2);
+		font-feature-settings: 'clig' off, 'liga' off;
+		/* Regular 16 */
+		font-family: Roboto;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 26px; /* 162.5% */
+	}
+	&__text p{
+		margin: 20px 0 0 0;
+	}
+
+		&__btn {
+
+
+		}
+		&__btn button{
+			padding: 4px 25px ;
+		background: rgba(17, 27, 71, 1);
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+color: var(--colour-secondary-white-100-general, #FFF);
+		}
+
+
+}
+
+.upper-main {
+background: url(/Learning/img/drew-beamer-kUHfMW8awpE-unsplash.jpg) center/ 1440px 1180px fixed  no-repeat;
+
+	&__body {
+		max-width: 600px;
+		margin: 0 auto;
+	}
+
+	&__row {
+	}
+
+	&__column {
+	}
+
+	&__item {
+		text-align: center;
+	}
+
+	&__title {
+		margin: 0 0 16px 0;
+		font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 500;
+line-height: 48px; /* 133.333% */
+color: var(--colour-main-blue-900, #091133);
+
+	
+		
+	}
+
+	&__text {
+		margin:  0 0 35.82px 0;
+		font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+color: var(--colour-main-blue-400, #6F7CB2);
+
+
+	}
+
+	&__price {
+		font-family: Roboto;
+font-size: 50px;
+font-style: normal;
+font-weight: 500;
+line-height: 66px; /* 132% */
+letter-spacing: 1px;
+color: var(--colour-main-blue-700, #222F65);
+
+	}
+
+	&__upper-price {
+		margin:  0 0 60px 0;
+		font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+color: rgba(55, 68, 126, 1);
+
+	}
+
+	&__see {
+		padding: 0 0 13.03px 0;
+		font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+color: var(--colour-main-grey-600, #5D6970);
+
+	}
+
+	&__btn {
+		padding:  0 0 176px 0;
+	}
+	&__btn button{
+		padding: 4px 50px ;
+		background: rgba(17, 27, 71, 1);
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+color: var(--colour-secondary-white-100-general, #FFF);
+
+	}
+}
+.container {
+}
+
+
+
+.footer {
+	background: rgba(164, 164, 166, 0.331);
+padding: 68px 0;
+	&__row {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__info {
+text-shadow: 1px 1px 1px black;
+color: var(--colour-main-grey-400, #939EA4);
+font-size: 14px;
+
+font-weight: 500;
+line-height: 24px;
+	}
+
+	&__landie {
+		color: var(--colour-logo-primary, #37447E);
+font-feature-settings: 'clig' off, 'liga' off;
+/* Bold 26 */
+font-family: Roboto;
+font-size: 26px;
+font-style: normal;
+font-weight: 900;
+line-height: 38px; /* 146.154% */
+	}
+
+	&__btn {
+	
+	}
+	&__btn button{
+		
+background-color: rgba(17, 27, 71, 1);
+border-radius: 2px;
+padding: 4px 20px;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 18px; 
+color: var(--colour-secondary-white-100-general, #FFF);;
+	}
+}
+
+.line {
+padding: 20px;
+	&__line {
+		background: #CDD1D4;
+		height: 1px;
+		
+	}
+}
+
+.upper-footer {
+
+	&__row {
+		display: flex;
+		justify-content: space-between;
+	}
+
+		&__home {
+			color: var(--colour-main-blue-300, #929ECC);
+font-feature-settings: 'clig' off, 'liga' off;
+/* Regular 14 */
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+
+		}
+
+		&__about {
+			color: var(--colour-main-blue-300, #929ECC);
+font-feature-settings: 'clig' off, 'liga' off;
+/* Regular 14 */
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+			margin: 0 30px;
+		}
+
+		&__contact {
+			color: var(--colour-main-blue-300, #929ECC);
+font-feature-settings: 'clig' off, 'liga' off;
+/* Regular 14 */
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+		}
+
+
+	&__column {
+	}
+
+	&__item {
+
+		
+	}
+
+	&__facebook {
+	}
+
+	&__in {
+		margin: 0 30px;
+	}
+
+	&__twiter {
+	}
+
+	&__youtube {
+		margin: 0 30px;
+	}
+
+	&__insta {
+	}
+}
+
+.header {
+
+	&__home {
+	}
+}
+.item2 {
+	display: flex;
+}
+
+
+.container {
+	max-width: 1180px;
+	margin: 0 auto;
+}
+

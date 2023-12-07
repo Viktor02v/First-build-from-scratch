@@ -1,0 +1,532 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+.wrapper1 {
+  background: url(/Learning/img/drew-beamer-kUHfMW8awpE-unsplash.jpg) center/1440px 1180px fixed no-repeat;
+  max-width: 1440px;
+  max-height: 1180px;
+}
+
+.content {
+  flex: 1 1 auto;
+}
+
+.header {
+  padding: 18px 0;
+  height: 62px;
+}
+.header__row {
+  display: flex;
+  justify-content: space-between;
+}
+.header__column {
+  text-transform: uppercase;
+}
+.header__body {
+  padding: 5px 0 0 0;
+  width: 240px;
+  height: 20px;
+}
+.header__item {
+  display: flex;
+  justify-content: space-between;
+}
+.header__home {
+  font-size: 14px;
+}
+.header__landie {
+  margin: 0 339px 0 271px;
+  font-size: 26px;
+  font-weight: 900;
+  color: rgb(55, 68, 126);
+}
+.header__button-label button {
+  border-radius: 2px;
+  padding: 4px 80px;
+  font-size: 12px;
+  color: var(--colour-secondary-white-100-general, #FFF);
+  background-color: rgb(17, 27, 71);
+}
+
+.inroducing {
+  padding: 230px 0;
+}
+
+.introducing__row {
+  display: flex;
+}
+.introducing__body {
+  display: flex;
+  width: 539px;
+  margin: 0 50px 0 0px;
+}
+.introducing__image {
+  border: 5px solid #f8f7f7;
+  box-shadow: 0 0 30px black;
+}
+
+.intoducing__item {
+  display: flex;
+  flex-direction: column;
+}
+.intoducing__title {
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 0 0 20px 0;
+}
+.intoducing__text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: var(--colour-main-blue-500, #505F98);
+  flex: 1 1 auto;
+}
+.intoducing__button a {
+  border: 2px solid #000;
+  color: var(--colour-secondary-white-100-general, #FFF);
+  font-size: 16px;
+  font-weight: 500;
+}
+.intoducing__button a:first-child {
+  padding: 5px 26px;
+  background-color: rgb(17, 27, 71);
+}
+.intoducing__button a:nth-child(2) {
+  padding: 5px 26px;
+  color: var(--colour-main-blue-900, #091133);
+  background: url(/Learning/img/Image\ for\ item1.png) fixed no-repeat;
+  margin: 0 0 0 30px;
+}
+
+.about {
+  background: url(/Learning/img/drew-beamer-kUHfMW8awpE-unsplash.jpg) center/1440px 1180px fixed no-repeat;
+}
+.about__title {
+  padding: 16px 0;
+  color: rgrgba(9, 17, 51, 1);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+}
+.about__text {
+  max-width: 570px;
+  color: var(--colour-main-blue-400, #6F7CB2);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 0 0 80px 0;
+}
+.about__text p {
+  margin: 16px 0 0 0;
+}
+.about__body {
+  max-width: 540px;
+}
+.about__row {
+  display: flex;
+  margin: 0 0 0 -60px;
+}
+.about__column {
+  margin: 0 0 0 60px;
+}
+.about__item {
+  display: flex;
+  flex-direction: column;
+}
+.about__icon {
+  margin: 0 0 14px 0;
+}
+.about__subtitle {
+  color: rgb(9, 17, 51);
+  color: var(--colour-main-blue-900, #091133);
+  font-feature-settings: "clig" off, "liga" off;
+  /* Medium 16 */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+  margin: 0 0 6px 0;
+}
+.about__subtext {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  color: var(--colour-main-grey-600, #5D6970);
+}
+.about__roww {
+  display: flex;
+  justify-content: space-between;
+}
+.about__img {
+  border: 5px solid #f9f7f7;
+  box-shadow: 0 0 15px black;
+}
+.main-1 {
+  padding: 200px 0;
+  background: url(/Learning/img/drew-beamer-kUHfMW8awpE-unsplash.jpg) center/1440px 1180px fixed no-repeat;
+}
+.main-1__row {
+  display: flex;
+  justify-content: space-between;
+}
+.main-1__image {
+  border: 5px solid #f9f7f7;
+  box-shadow: 0 0 15px black;
+}
+.main-1__body {
+  align-self: center;
+  max-width: 445px;
+}
+.main-1__title {
+  margin: 0 0 16px 0;
+  color: var(--colour-main-blue-900, #091133);
+  font-feature-settings: "clig" off, "liga" off;
+  /* Medium 36 */
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px; /* 133.333% */
+}
+.main-1__text {
+  color: var(--colour-main-blue-400, #6F7CB2);
+  font-feature-settings: "clig" off, "liga" off;
+  /* Regular 16 */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.main-1__text p {
+  margin: 20px 0 0 0;
+}
+
+.main-2 {
+  padding: 0 0 200px 0;
+  background: url(/Learning/img/drew-beamer-kUHfMW8awpE-unsplash.jpg) center/1440px 1180px fixed no-repeat;
+}
+.main-2__row {
+  display: flex;
+  justify-content: space-between;
+}
+.main-2__image {
+  border: 5px solid #f9f7f7;
+  box-shadow: 0 0 15px black;
+}
+.main-2__body {
+  align-self: center;
+  max-width: 445px;
+}
+.main-2__title {
+  margin: 0 0 16px 0;
+  color: var(--colour-main-blue-900, #091133);
+  font-feature-settings: "clig" off, "liga" off;
+  /* Medium 36 */
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px; /* 133.333% */
+}
+.main-2__text {
+  color: var(--colour-main-blue-400, #6F7CB2);
+  font-feature-settings: "clig" off, "liga" off;
+  /* Regular 16 */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.main-2__text p {
+  margin: 20px 0 0 0;
+}
+
+.main-3 {
+  padding: 0 0 200px 0;
+  background: url(/Learning/img/drew-beamer-kUHfMW8awpE-unsplash.jpg) center/1440px 1180px fixed no-repeat;
+}
+.main-3__row {
+  display: flex;
+  justify-content: space-between;
+}
+.main-3__image {
+  border: 5px solid #f9f7f7;
+  box-shadow: 0 0 15px black;
+}
+.main-3__body {
+  align-self: center;
+  max-width: 445px;
+}
+.main-3__title {
+  margin: 0 0 16px 0;
+  color: var(--colour-main-blue-900, #091133);
+  font-feature-settings: "clig" off, "liga" off;
+  /* Medium 36 */
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px; /* 133.333% */
+}
+.main-3__text {
+  margin: 0 0 44px 0;
+  color: var(--colour-main-blue-400, #6F7CB2);
+  font-feature-settings: "clig" off, "liga" off;
+  /* Regular 16 */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.main-3__text p {
+  margin: 20px 0 0 0;
+}
+.main-3__btn button {
+  padding: 4px 25px;
+  background: rgb(17, 27, 71);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  color: var(--colour-secondary-white-100-general, #FFF);
+}
+
+.upper-main {
+  background: url(/Learning/img/drew-beamer-kUHfMW8awpE-unsplash.jpg) center/1440px 1180px fixed no-repeat;
+}
+.upper-main__body {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.upper-main__item {
+  text-align: center;
+}
+.upper-main__title {
+  margin: 0 0 16px 0;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px; /* 133.333% */
+  color: var(--colour-main-blue-900, #091133);
+}
+.upper-main__text {
+  margin: 0 0 35.82px 0;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  color: var(--colour-main-blue-400, #6F7CB2);
+}
+.upper-main__price {
+  font-family: Roboto;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 66px; /* 132% */
+  letter-spacing: 1px;
+  color: var(--colour-main-blue-700, #222F65);
+}
+.upper-main__upper-price {
+  margin: 0 0 60px 0;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  color: rgb(55, 68, 126);
+}
+.upper-main__see {
+  padding: 0 0 13.03px 0;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--colour-main-grey-600, #5D6970);
+}
+.upper-main__btn {
+  padding: 0 0 176px 0;
+}
+.upper-main__btn button {
+  padding: 4px 50px;
+  background: rgb(17, 27, 71);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  color: var(--colour-secondary-white-100-general, #FFF);
+}
+
+.footer {
+  background: rgba(164, 164, 166, 0.331);
+  padding: 68px 0;
+}
+.footer__row {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__info {
+  text-shadow: 1px 1px 1px black;
+  color: var(--colour-main-grey-400, #939EA4);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.footer__landie {
+  color: var(--colour-logo-primary, #37447E);
+  font-feature-settings: "clig" off, "liga" off;
+  /* Bold 26 */
+  font-family: Roboto;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 38px; /* 146.154% */
+}
+.footer__btn button {
+  background-color: rgb(17, 27, 71);
+  border-radius: 2px;
+  padding: 4px 20px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  color: var(--colour-secondary-white-100-general, #FFF);
+}
+
+.line {
+  padding: 20px;
+}
+.line__line {
+  background: #CDD1D4;
+  height: 1px;
+}
+
+.upper-footer__row {
+  display: flex;
+  justify-content: space-between;
+}
+.upper-footer__home {
+  color: var(--colour-main-blue-300, #929ECC);
+  font-feature-settings: "clig" off, "liga" off;
+  /* Regular 14 */
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.upper-footer__about {
+  color: var(--colour-main-blue-300, #929ECC);
+  font-feature-settings: "clig" off, "liga" off;
+  /* Regular 14 */
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0 30px;
+}
+.upper-footer__contact {
+  color: var(--colour-main-blue-300, #929ECC);
+  font-feature-settings: "clig" off, "liga" off;
+  /* Regular 14 */
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.upper-footer__in {
+  margin: 0 30px;
+}
+.upper-footer__youtube {
+  margin: 0 30px;
+}
+.item2 {
+  display: flex;
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
